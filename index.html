@@ -10,21 +10,10 @@
 </head>
 
 <body>
-	<header class=header>
+	<header class="header">
 		<div class="logo">
 
 		</div>
-		<nav class="menu-model">
-			<a href="#" class="menu-model__item" "menu-model__item_active">Model S</a>
-			<a href="#" class="menu-model__item">Model X</a>
-			<a href="#" class="menu-model__item">Model 3</a>
-			<a href="#" class="menu-model__item">Roadster</a>
-			<a href="#" class="menu-model__item">Energy</a>
-		</nav>
-		<nav class="menu-store">
-			<a href="#" class="menu-store__item">Магазин</a>
-			<a href="#" class="menu-store__item">Войти</a>
-		</nav>
 
 		<div class="hamburger-menu">
 			<input id="hamburger-menu__menu-toggle" type="checkbox" />
@@ -32,24 +21,37 @@
 				<span></span>
 			</label>
 
+			<div class="wrapper">
+				<nav class="menu-model">
+					<a href="#" class="menu-model__item menu-model__item_active">Model S</a>
+					<a href="#" class="menu-model__item">Model X</a>
+					<a href="#" class="menu-model__item">Model 3</a>
+					<a href="#" class="menu-model__item">Roadster</a>
+					<a href="#" class="menu-model__item">Energy</a>
+				</nav>
+				<nav class="menu-store">
+					<a href="#" class="menu-store__item">Магазин</a>
+					<a href="#" class="menu-store__item">Войти</a>
+				</nav>
+			</div>
 	</header>
 
 	<section class="first-section">
 		<h1 class="first-section__title"> Model S </h1>
 		<p class="first-section__subtitle">Добро пожаловать в будущее</p>
 		<div class="first-section__info">
-			<div class="info__speed-data">
-				<img class="info__speed-img" src="" alt="">
-				<div class="info__speed">
-					<p class="info__speed-numb"> 2,7 <span class="info__speed-value" сек</span> </p>
-					<p class="info__speed-ref"> 0-100 км/час</p>
+			<div class="first-section__speed-data">
+				<img class="first-section__speed-img" src="" alt="">
+				<div class="first-section__speed">
+					<p class="first-section__speed-numb"> 2,7 <span class="info__speed-value" сек</span> </p>
+					<p class="first-section__speed-ref"> 0-100 км/час</p>
 				</div>
 
-				<div class="info__miles">
-					<img class="info__miles-img" src="" alt="">
-					<div class="info__miles-data">
-						<p class="info__miles-numb"> 632 <span class="info__miles-value">км</span></p>
-						<p class="info__miles-other">запас хода </p>
+				<div class="first-section__miles">
+					<img class="first-section__miles-img" src="" alt="">
+					<div class="first-section__miles-data">
+						<p class="first-section__miles-numb"> 632 <span class="first-section__miles-value">км</span></p>
+						<p class="first-section__miles-other">запас хода </p>
 					</div>
 				</div>
 
@@ -57,114 +59,8 @@
 					<p class="first-section__test-drive"> Тест драйв</p>
 				</div>
 
-				<a href="#" class="first-section__info-button">Заказать</a>
+				<a href="#" class="first-section__order-button">Заказать</a>
 			</div>
-	</section>
-
-	<section class="second-section">
-		<h2 class="second-section__title>Model S</h2>
-		<aside class=" second-section__side">
-			<div class="second-section__side-info">
-				<h3 class="second-section__side-title">Будущее вождения</h3>
-				<p class="second-section__side-text"> Модель S обладает лучшей в своем классе вместимостью: в машине
-					поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном.
-					Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а
-					стеклянная крыша обеспечивает просторный интерьер для каждого пассажира. </p>
-			</div>
-			<div class="second-section__side-data">
-				<div class="side__data__first-data" <p class="side__data__first-data_numb">17<span
-						class="side__data__first-data-value">дюймов</span></p>
-					<p class="side__data__first-data-display">Большой дисплей</p>
-				</div>
-				<div class="side__data__second-data">
-					<p class="side__data__second-data-title">Беспроводное обновление ПО</p>
-					<p class="side__data__second-data-wifi">Повышенная <br>функциональность</p>
-				</div>
-				<div class="side__data__third-data">
-					<p class="side__data__third-data-number">894
-						<span class="side__data__third-data-value">литра</span></p>
-					<p class="side__details__third-data-volume">Объем грузового <br>пространства</p>
-				</div>
-				<div class="side-buttons">
-					<a href="#" class="side-buttons__more"> узнать больше</a>
-					<a href="#" class="side-buttons__order"> заказать</a>
-				</div>
-				</aside>
-	</section>
-
-	<section class="third-section">
-		<aside class="third-section__side">
-			<div class="third-section__side-info">
-				<h3 class="third-section__side__info-title">Самый безопасный автомобиль в мире</h3>
-				<p class="third-section__side__info-text">Модель S достигла наивысшей оценки безопасности любого автомобиля,
-					когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных
-					случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
-			</div>
-			<div class="side__rating">
-				<h3 class="side__rating-title">Оценка защиты: </h3>
-				<p class="side__rating-front">Спереди</p>
-				<p class="side__rating-left">Сбоку</p>
-				<p class="side__rating-left-1">Сбоку<span class="side__rating_left-info">(стойка)</span></p>
-				<p class="side__rating-driver">Водитель</p>
-				<p class="side__rating-passenger">Пассажир</p>
-				<div class="side__rating-star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-					<img src="" alt="star">
-				</div>
-			</div>
-			<div class="side__star">
-				<p class="side__star-title">5 звезд</p>
-				<p class="side__star-subtitle">безопасности</p>
-			</div>
-			<div class="third-section__side__buttons">
-				<a href="#" class="third-section__side__buttons__more">узнать больше</a>
-				<a href="#" class="third-section__side__buttons__order side__buttons_order">заказать</a>
-			</div>
-		</aside>
-
-		<div class="third-section__right-block">
-
-			<div class="third-section__right-block-title">
-				<p class="third-section__right-block-title-text">Model S</p>
-			</div>
-
-			<img class="third-section__right-block-img" src="" alt="car">
-			<div class="third-section__right-block-first-photo">
-				<p class="photo__text">Защита от удара спереди</p>
-			</div>
-			<div class="third-section__right-block__second-photo">
-				<p class="third-section__photo-text">Защита от удара сбоку</p>
-			</div>
-			<div class="third-section__right-block__third-photo">
-				<p class="photo__text">Минимальный риск перевернуться в аварии</p>
-			</div>
-			<div class="third-section__right-block-copyright">
-				<img class="right-block-copyright" src="" alt="">
-			</div>
-		</div>
 	</section>
 </body>
 

@@ -1,0 +1,16 @@
+ body {
+	 margin:0;
+ }
+ .logo {
+	 width:166px;
+	 height:51px;
+	 background: url(images/Tesla-Wordmark-RedO.svg);
+	 margin-left:3%;
+	 margin-top:2%;
+ }
+.wrapper {
+	display: flex;
+	justify-content:center;
+	font: 600 15px/19px 'Montserrat', Arial, sans-serif;
+	text-decoration: none;
+}
