@@ -1,0 +1,26 @@
+ body {
+	 margin:0;
+ }
+
+ .header {
+	display: flex;
+	margin-top: 2%;
+	margin-left:3%;
+	
+}
+
+.logo {
+	width:166px;
+	height:51px;
+	background: url(images/Tesla-Wordmark-RedO.svg); 
+}
+
+.wrapper {
+	display: flex;
+	font: 600 15px/19px 'Montserrat', Arial, sans-serif;
+	margin-top: 3%;
+}
+
+#hamburger-menu__menu-toggle {
+	display: none;
+}
