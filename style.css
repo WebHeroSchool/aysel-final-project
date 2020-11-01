@@ -69,9 +69,29 @@ margin-bottom: -26px;
 		
 .first-section { 
 	background-image: url(images/Tesla-Wordmark-Red.png), url(images/1tesla-png-tesla-png-hd-1636.png);
-	background-position: center, 42% 143px;
+	background-position: center 39px, 42% 143px;
 	background-repeat: no-repeat;
-	padding-bottom: 100px;
+	padding-bottom: 246px;
+
+}
+.first-section__speed-data {
+	width: 56%;
+	display:flex;
+	align-items:center;
+	margin-left: 371px;
+	margin-top: 471px;
+}
 
 
+.first-section__speed-numb {
+	font: 600 35px/43px 'Montserrat', Arial, sans-serif;
+}
+
+.first-section__speed-value {
+	font: 600 20px/25px 'Montserrat', Arial, sans-serif;
+}
+
+.first-section__speed-ref {
+	font: 600 12px/15px 'Montserrat', Arial, sans-serif;
+	margin-top:20px;
 }
