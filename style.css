@@ -1,23 +1,77 @@
-.header {
-	display: flex;
-	margin-top: 2%;
-	margin-left:3%;
-
-	
-}
-
 .logo {
 	width:166px;
 	height:51px;
 	background: url(images/Tesla-Wordmark-RedO.svg); 
 }
+.header {
+   display: flex;
+	align-items: center;
+	margin-top: 23px;
+	margin-left:33px;
+	
 
-.wrapper {
-	display: flex;
+} 
+
+.menu-model {
 	font: 600 15px/19px 'Montserrat', Arial, sans-serif;
-	margin-top: 3%;
+	margin-top: 4px;
 }
+
+
+.menu-model__item:first-child {
+	margin-left:264px;
+	margin-right:64px;
+}
+
+.menu-model__item:nth-child(2) {
+	margin-right:26px;
+	
+}
+.menu-model__item:nth-child(3) {
+	margin-right:42px;
+	
+}
+
+.menu-model__item:nth-child(4) {
+	margin-right:47px;
+	
+}
+
+.menu-model__item:nth-child(5) {
+	margin-right:223px;
+}
+
+.menu-store__item:nth-child(6) {
+	margin-right:29px;
+}
+
 
 #hamburger-menu__menu-toggle {
 	display: none;
+}
+
+.first-section__title {
+display:flex;
+justify-content: center;
+font: 600 89px/108px 'Montserrat', Arial, sans-serif;
+margin-top: 60px;
+letter-spacing: 3px;
+margin-bottom: -26px;
+
+}
+.first-section__subtitle {
+	display:flex;
+	justify-content: center;
+	font: 500 15px/19px 'Montserrat', Arial, sans-serif;
+	letter-spacing:2px;
+	margin-bottom:86px;
+	}
+		
+.first-section { 
+	background-image: url(images/Tesla-Wordmark-Red.png), url(images/1tesla-png-tesla-png-hd-1636.png);
+	background-position: center, 42% 143px;
+	background-repeat: no-repeat;
+	padding-bottom: 100px;
+
+
 }
