@@ -74,24 +74,41 @@ margin-bottom: -26px;
 	padding-bottom: 246px;
 
 }
-.first-section__speed-data {
-	width: 56%;
+.first-section__info {
+	margin:0 auto;
 	display:flex;
-	align-items:center;
-	margin-left: 371px;
-	margin-top: 471px;
+	justify-content:space-between;
+	width: 55%;
+	background-image: url(images/Group\ \(1\).svg), url(images/Road\ icon\ \(1\).svg);
+	background-repeat: no-repeat;
+
+}
+.first-section__speed-miles {
+	display:flex;
 }
 
-
-.first-section__speed-numb {
+.first-section__speed_numb {
 	font: 600 35px/43px 'Montserrat', Arial, sans-serif;
+	
 }
 
-.first-section__speed-value {
+.first-section__speed_value {
 	font: 600 20px/25px 'Montserrat', Arial, sans-serif;
 }
 
-.first-section__speed-ref {
+.first-section__speed_ref {
 	font: 600 12px/15px 'Montserrat', Arial, sans-serif;
-	margin-top:20px;
+
+
+}
+.first-section__miles_numb {
+	font: 600 35px/43px 'Montserrat', Arial, sans-serif;
+}
+
+.first-section__miles_value {
+	font: 600 20px/25px 'Montserrat', Arial, sans-serif;
+}
+
+.first-section__miles_other {
+	font: 600 12px/15px 'Montserrat', Arial, sans-serif;
 }
