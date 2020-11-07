@@ -74,17 +74,19 @@ margin-bottom: -26px;
 	padding-bottom: 246px;
 
 }
-.first-section__info {
-	margin:0 auto;
+
+.wrapper {
 	display:flex;
 	justify-content:space-between;
-	max-width: 550px;
-	margin-top: 464px;
-
+	max-width:800px;
+	margin: 0 auto;
+	margin-top:400px;
+	
 }
+
 .first-section__speed-miles {
 	display:flex;
-	margin-left:-64px;
+	
 }
 
 .first-section__speed {
@@ -110,7 +112,9 @@ margin-bottom: -26px;
 
 .first-section__speed_numb {
 	font: 600 35px/43px 'Montserrat', Arial, sans-serif;
-	margin-right:126px;
+	
+
+
 
 }
 
@@ -129,8 +133,15 @@ margin-bottom: -26px;
 
 .first-section__miles_other {
 	font: 600 12px/15px 'Montserrat', Arial, sans-serif;
-	margin-top: -35px;
+	
 }
+
+.first-section__test-order {
+	display:flex;
+	justify-content:space-between;
+
+}
+
 
 .first-section__order-button {
 	padding:14px 16px;
