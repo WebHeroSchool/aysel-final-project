@@ -81,6 +81,7 @@ margin-bottom: -26px;
 	max-width:800px;
 	margin: 0 auto;
 	margin-top:400px;
+	align-items:center;
 	
 }
 
@@ -92,7 +93,10 @@ margin-bottom: -26px;
 .first-section__speed {
 	background-image: url(images/Group\ \(1\).svg);
 	background-repeat: no-repeat;
-	padding-left: 40px;
+	background-position: 1px 45px;
+	padding-left: 67px;
+	margin-top:70px;
+
 
 
 
@@ -100,8 +104,11 @@ margin-bottom: -26px;
 
 .first-section__miles {
 	background-image: url(images/Road\ icon\ \(1\).svg);
+	background-position:70px 10px;
 	background-repeat: no-repeat;
-	padding-left: 40px;
+	padding-left: 122px;
+	margin-top: 104px;
+	margin-bottom:61px;
 
 }
 
@@ -112,10 +119,6 @@ margin-bottom: -26px;
 
 .first-section__speed_numb {
 	font: 600 35px/43px 'Montserrat', Arial, sans-serif;
-	
-
-
-
 }
 
 .first-section__speed_value {
@@ -125,6 +128,9 @@ margin-bottom: -26px;
 
 .first-section__miles_numb {
 	font: 600 35px/43px 'Montserrat', Arial, sans-serif;
+	margin-block-start: 0px;
+	scroll-margin-block-end: 0px;
+	margin-bottom: -1px;
 }
 
 .first-section__miles_value {
@@ -133,21 +139,51 @@ margin-bottom: -26px;
 
 .first-section__miles_other {
 	font: 600 12px/15px 'Montserrat', Arial, sans-serif;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	
+
 	
 }
 
 .first-section__test-order {
 	display:flex;
 	justify-content:space-between;
-
+	background-image: url(images/Test\ drive\ 1.png);
+	background-repeat: no-repeat;
+	background-position: 80px 66px;
+	padding-bottom:7px;
+	padding-left:240px;
+   
 }
 
 
+
 .first-section__order-button {
-	padding:14px 16px;
+	padding:14px 46px;
+	margin-top:53px;
 	text-decoration: none;
 	border: 2px solid #E51937;
 	font: 13px/16px 'Montserrat', Arial, sans-serif;
 	text-color: #E51937;
+	text-transform:uppercase;
 }
+}
+
+.arrow-down{
+border: solid #E51937;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+transform: rotate(45deg);
+webkit-transform: rotate(45deg);
+  }
+
+.second-section__title {
+	display:flex;
+	justify-content:flex-start;
+	color: #E51937;
+	font: 600 70px/85px 'Montserrat', Arial, sans-serif;
+	margin-left:64px;
+
 }
