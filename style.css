@@ -6,7 +6,7 @@
 .header {
    display: flex;
 	align-items: center;
-	margin-top: 23px;
+	margin-top: 17px;
 	margin-left:33px;
 	
 
@@ -78,18 +78,26 @@ margin-bottom: -26px;
 	margin:0 auto;
 	display:flex;
 	justify-content:space-between;
-	width: 55%;
+	max-width: 550px;
 	background-image: url(images/Group\ \(1\).svg), url(images/Road\ icon\ \(1\).svg);
 	background-repeat: no-repeat;
+	background-position: -84px 41px, 101px 38px;
+	margin-top: 464px;
 
 }
 .first-section__speed-miles {
 	display:flex;
+	margin-left:-64px;
+}
+
+.first-section__speed_ref {
+	margin-top:-36px;
 }
 
 .first-section__speed_numb {
 	font: 600 35px/43px 'Montserrat', Arial, sans-serif;
-	
+	margin-right:126px;
+
 }
 
 .first-section__speed_value {
@@ -111,4 +119,14 @@ margin-bottom: -26px;
 
 .first-section__miles_other {
 	font: 600 12px/15px 'Montserrat', Arial, sans-serif;
+	margin-top: -35px;
+}
+
+.first-section__order-button {
+	padding:14px 16px;
+	text-decoration: none;
+	border: 2px solid #E51937;
+	font: 13px/16px 'Montserrat', Arial, sans-serif;
+	text-color: #E51937;
+}
 }
