@@ -181,7 +181,8 @@ webkit-transform: rotate(45deg);
 
   .second-section {
 	background-image: url(images/2013-tesla-model-s-cockpit.png);
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; 
+	padding-bottom:210px;
   }
 
 
