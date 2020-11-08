@@ -93,9 +93,9 @@ margin-bottom: -26px;
 .first-section__speed {
 	background-image: url(images/Group\ \(1\).svg);
 	background-repeat: no-repeat;
-	background-position: 1px 45px;
-	padding-left: 67px;
-	margin-top:70px;
+	background-position: -3px 45px;
+	padding-left: 63px;
+	margin-top:77px;
 
 
 
@@ -104,10 +104,10 @@ margin-bottom: -26px;
 
 .first-section__miles {
 	background-image: url(images/Road\ icon\ \(1\).svg);
-	background-position:70px 10px;
+	background-position:76px 10px;
 	background-repeat: no-repeat;
-	padding-left: 122px;
-	margin-top: 104px;
+	padding-left: 124px;
+	margin-top: 109px;
 	margin-bottom:61px;
 
 }
@@ -179,11 +179,35 @@ transform: rotate(45deg);
 webkit-transform: rotate(45deg);
   }
 
-.second-section__title {
-	display:flex;
-	justify-content:flex-start;
-	color: #E51937;
-	font: 600 70px/85px 'Montserrat', Arial, sans-serif;
-	margin-left:64px;
+  .second-section {
+	background-image: url(images/2013-tesla-model-s-cockpit.png);
+	background-repeat: no-repeat;
+  }
 
+
+.second-section__title {
+	color: #E51937;
+	font: 600 79px/85px 'Montserrat', Arial, sans-serif;
+	margin-left:68px;
+	margin-top:-143px;
+
+}
+
+.second-section__aside {
+	max-width:520px;
+	margin-left:992px;
+	max-height:600px;
+	padding-left:20px;
+	padding-right:20px;
+	background-color: #E51937;
+}
+
+.second-section__second-title {
+	font: 600 30px/36px 'Montserrat', Arial, sans-serif;
+	color: #fff;
+}
+
+.second-section__text {
+	font: 500 15px/19px 'Montserrat', Arial, sans-serif;
+	color: #fff;
 }
