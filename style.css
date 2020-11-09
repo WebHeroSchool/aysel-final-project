@@ -334,18 +334,20 @@ webkit-transform: rotate(45deg);
 }
 
 .third-section__aside {
-		min-width:392px;
+		min-width:393px;
 		padding-left:20px;
 		padding-right:20px;
 		margin-top:7px;
 		background-color: #E51937;
-		padding-bottom: 79px;
+	   
 }
 
 
 .third-section__title {
 	font: 600 30px/36px 'Montserrat', Arial, sans-serif;
 	color: #fff;
+	margin-top:20px;
+	padding-bottom:20px;
 
 }
 
