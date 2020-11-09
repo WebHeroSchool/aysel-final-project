@@ -184,8 +184,10 @@ webkit-transform: rotate(45deg);
 	display:flex;
 	justify-content:space-between;
 	background-image: url(images/2013-tesla-model-s-cockpit.png);
+	background-position: -15px 59px;
 	background-repeat: no-repeat; 
-	padding-bottom:210px;
+	padding-bottom: 100px;
+
   }
 
 
@@ -204,6 +206,8 @@ webkit-transform: rotate(45deg);
 	padding-right:20px;
 	margin-top:7px;
 	background-color: #E51937;
+	padding-bottom: 79px;
+
 }
 
 .second-section__second-title {
@@ -230,11 +234,14 @@ webkit-transform: rotate(45deg);
 .second-section__wifi {
 	background-image: url(images/Group1.svg);
 	background-repeat: no-repeat;
+	background-position:28px 15px;
 }
 
 .second-section__litre {
 	background-image: url(images/bag.svg);
 	background-repeat: no-repeat;
+	background-position:28px 15px;
+
 	
 }
 
@@ -292,6 +299,7 @@ webkit-transform: rotate(45deg);
 	color: #fff;
 	margin-left: 91px;
 	margin-top:-32px;
+	margin-bottom: 178px;
 }
 
 .second-section__learn-more {
@@ -301,7 +309,9 @@ webkit-transform: rotate(45deg);
 	color: #fff;
 	background-image: url(images/Group3.png);
 	background-repeat: no-repeat;
-	margin-top:100px;
+	background-position:30px 30px;
+	margin-left: 61px;
+
 }
 
 .second-section__order-button {
@@ -312,5 +322,75 @@ webkit-transform: rotate(45deg);
 	font: 13px/16px 'Montserrat', Arial, sans-serif;
 	text-color: #fff;
 	text-transform:uppercase;
+	margin-left:40px;
 }
 
+
+.third-section {
+	display:flex;
+	justify-content:space-between;
+	background-image: url(images/Model\ S.png), url(images/Group\ 2311.png);
+	background-repeat: no-repeat; 
+}
+
+.third-section__aside {
+		min-width:392px;
+		padding-left:20px;
+		padding-right:20px;
+		margin-top:7px;
+		background-color: #E51937;
+		padding-bottom: 79px;
+}
+
+
+.third-section__title {
+	font: 600 30px/36px 'Montserrat', Arial, sans-serif;
+	color: #fff;
+
+}
+
+.third-section__text {
+	font: 500 16px/18px 'Montserrat', Arial, sans-serif;
+	color: #fff;
+}
+
+.third-section__second-title {
+	font: 600 30px/36px 'Montserrat', Arial, sans-serif;
+	color: #fff;
+}
+
+	.third-section__evaluation {
+		font: 600 50px/61px 'Montserrat', Arial, sans-serif;
+		color: #fff;
+		background-image: url(images/security.svg);
+		background-repeat:no-repeat;
+}
+
+.third-section__evaluation-info {
+	font: 600 25px/31px 'Montserrat', Arial, sans-serif;
+	color: #fff;
+
+}
+
+.third-section__learn-more {
+	text-transform:uppercase;
+	text-decoration: none;
+	font: 13px/16px 'Montserrat', Arial, sans-serif;
+	color: #fff;
+	background-image: url(images/Group3.png);
+	background-repeat: no-repeat;
+	background-position:30px 30px;
+	margin-left: 61px;
+
+}
+
+.third-section__order-button {
+	padding:12px 46px;
+	margin-top:53px;
+	text-decoration: none;
+	border: 2px solid #fff;
+	font: 13px/16px 'Montserrat', Arial, sans-serif;
+	text-color: #fff;
+	text-transform:uppercase;
+	margin-left:40px;
+}
