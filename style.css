@@ -186,7 +186,7 @@ webkit-transform: rotate(45deg);
 	background-image: url(images/2013-tesla-model-s-cockpit.png);
 	background-position: -15px 59px;
 	background-repeat: no-repeat; 
-	padding-bottom: 100px;
+	
 
   }
 
@@ -331,6 +331,7 @@ webkit-transform: rotate(45deg);
 	justify-content:space-between;
 	background-image: url(images/Model\ S.png), url(images/Group\ 2311.png);
 	background-repeat: no-repeat; 
+	background-position: 637px 137px, 204px 120px;
 }
 
 .third-section__aside {
@@ -346,7 +347,8 @@ webkit-transform: rotate(45deg);
 .third-section__title {
 	font: 600 30px/36px 'Montserrat', Arial, sans-serif;
 	color: #fff;
-	margin-top:20px;
+	margin-top:6px;
+	margin-left:29px;
 	padding-bottom:20px;
 
 }
@@ -354,19 +356,27 @@ webkit-transform: rotate(45deg);
 .third-section__text {
 	font: 500 16px/18px 'Montserrat', Arial, sans-serif;
 	color: #fff;
+	margin-left: 24px;
+	margin-top:-32px;
 }
 
 .third-section__second-title {
 	font: 600 30px/36px 'Montserrat', Arial, sans-serif;
 	color: #fff;
+	margin-left:30px;
+	margin-top:37px;
+
 }
 
 .third-section__star-evaluation {
 	font: 600 17px/21px 'Montserrat', Arial, sans-serif;
 	color: #fff;
 	text-transform:uppercase;
+	margin-left:20px;
+	margin-top:32px;
 
 }
+
 
 .third-section__star-evaluation_add-info {
 	font: 600 10px/12px 'Montserrat', Arial, sans-serif;
@@ -374,17 +384,29 @@ webkit-transform: rotate(45deg);
 }
 
 
-	.third-section__evaluation {
-		font: 600 50px/61px 'Montserrat', Arial, sans-serif;
-		color: #fff;
-		background-image: url(images/security.svg);
-		background-repeat:no-repeat;
+.third-section__star-svg {
+	margin-left:20px;
+	margin-right:20px;
 }
 
+.third-section__evaluation {
+	font: 600 50px/61px 'Montserrat', Arial, sans-serif;
+	color: #fff;
+	background-image: url(images/security.svg);
+	background-repeat:no-repeat;
+	margin-top:-227px;
+	margin-left: 39px;
+}
 
 .third-section__evaluation-info {
 	font: 600 25px/31px 'Montserrat', Arial, sans-serif;
 	color: #fff;
+	
+}
+
+.third-section__evaluation_value {
+	margin-left:85px;
+	margin-top: 46px;
 
 }
 
@@ -397,6 +419,7 @@ webkit-transform: rotate(45deg);
 	background-repeat: no-repeat;
 	background-position:30px 30px;
 	margin-left: 61px;
+	margin-bottom:20px;
 
 }
 
