@@ -178,7 +178,7 @@ border: solid #E51937;
   padding: 3px;
 transform: rotate(45deg);
 webkit-transform: rotate(45deg);
-  }
+   }
 
   .second-section {
 	display:flex;
@@ -320,7 +320,7 @@ webkit-transform: rotate(45deg);
 	text-decoration: none;
 	border: 2px solid #fff;
 	font: 13px/16px 'Montserrat', Arial, sans-serif;
-	text-color: #fff;
+	color: #fff;
 	text-transform:uppercase;
 	margin-left:40px;
 }
@@ -364,18 +364,32 @@ webkit-transform: rotate(45deg);
 	font: 600 30px/36px 'Montserrat', Arial, sans-serif;
 	color: #fff;
 	margin-left:30px;
-	margin-top:37px;
+	margin-top: 39px;
+	margin-bottom: 30px;
+}
+
+.third-section__evaluation-star {
 
 }
+
+.stars {
+	display: flex;
+	justify-content: space-between;
+	max-width: 320px;
+	margin-bottom: 10px;
+}
+
 
 .third-section__star-evaluation {
 	font: 600 17px/21px 'Montserrat', Arial, sans-serif;
 	color: #fff;
 	text-transform:uppercase;
-	margin-left:20px;
-	margin-top:32px;
-
+	margin: 0px;
+	margin-left:28px;
+	
 }
+
+
 
 
 .third-section__star-evaluation_add-info {
@@ -385,8 +399,10 @@ webkit-transform: rotate(45deg);
 
 
 .third-section__star-svg {
+	/* Убираем не нужные margin 
 	margin-left:20px;
 	margin-right:20px;
+		*/
 }
 
 .third-section__evaluation {
@@ -394,8 +410,10 @@ webkit-transform: rotate(45deg);
 	color: #fff;
 	background-image: url(images/security.svg);
 	background-repeat:no-repeat;
-	margin-top:-227px;
+	background-position: 2px 91px;
 	margin-left: 39px;
+	line-height: 14px;
+	border: 1px solid transparent;
 }
 
 .third-section__evaluation-info {
@@ -405,9 +423,13 @@ webkit-transform: rotate(45deg);
 }
 
 .third-section__evaluation_value {
-	margin-left:85px;
-	margin-top: 46px;
+	margin-left:88px;
+	margin-top: 107px;
 
+}
+
+.third-section__more-order {
+	margin-top:19px;
 }
 
 .third-section__learn-more {
@@ -418,8 +440,9 @@ webkit-transform: rotate(45deg);
 	background-image: url(images/Group3.png);
 	background-repeat: no-repeat;
 	background-position:30px 30px;
-	margin-left: 61px;
+	margin-left: 44px;
 	margin-bottom:20px;
+
 
 }
 
@@ -429,7 +452,8 @@ webkit-transform: rotate(45deg);
 	text-decoration: none;
 	border: 2px solid #fff;
 	font: 13px/16px 'Montserrat', Arial, sans-serif;
-	text-color: #fff;
+	color: #fff;
 	text-transform:uppercase;
-	margin-left:40px;
+	margin-left:43px;
+	
 }
