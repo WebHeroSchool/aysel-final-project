@@ -29,25 +29,32 @@ body {
 }
 
 .menu-model__item:nth-child(2) {
-   margin-right:21px;
+	margin-right:21px;
+	text-decoration: none;
    
 }
 .menu-model__item:nth-child(3) {
-   margin-right:40px;
-   
+	margin-right:40px;
+	text-decoration: none; 
 }
 
 .menu-model__item:nth-child(4) {
    margin-right:42px;
-   
+   text-decoration: none;
 }
 
 .menu-model__item:nth-child(5) {
-   margin-right:217px;
+	margin-right:217px;
+	text-decoration: none;
 }
 
 .menu-store__item:nth-child(6) {
-   margin-right:26px;
+	margin-right:26px;
+	text-decoration: none;
+}
+
+.menu-store__item:nth-child(7) {
+	text-decoration: none;
 }
 
 
@@ -181,7 +188,7 @@ margin-left:0px;
 border: solid #E51937;
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 3px;
+  padding: 6px;
 transform: rotate(45deg);
 webkit-transform: rotate(45deg);
    }
@@ -337,9 +344,9 @@ webkit-transform: rotate(45deg);
 .third-section {
    display:flex;
    justify-content:space-between;
-   background-image: url(images/Model\ S.png), url(images/Group\ 2311.png);
+   background-image: url(images/Model\ S.png), url(images/Car\ frame\ group.png), url(images/Group\ 12.png);
    background-repeat: no-repeat; 
-   background-position: 637px 137px, 204px 120px;
+   background-position: 643px 170px, 345px 199px, 1328px 878px;
 }
 
 .third-section__aside {
@@ -377,9 +384,7 @@ webkit-transform: rotate(45deg);
    margin-bottom: 30px;
 }
 
-.third-section__evaluation-star {
 
-}
 
 .stars {
    display: flex;
@@ -409,8 +414,8 @@ webkit-transform: rotate(45deg);
    background-image: url(images/security.svg);
    background-repeat:no-repeat;
    background-position: 2px 91px;
-   margin-left: 39px;
-   line-height: 14px;
+   margin-left: 30px;
+   line-height: 12px;
    border: 1px solid transparent;
 }
 
@@ -427,7 +432,7 @@ webkit-transform: rotate(45deg);
 }
 
 .third-section__more-order {
-   margin-top:19px;
+   margin-top:17px;
 }
 
 .third-section__learn-more {
@@ -447,13 +452,13 @@ webkit-transform: rotate(45deg);
 }
 
 .third-section__order-button {
-   padding:12px 46px;
+   padding:10px 43px;
    margin-top:53px;
    text-decoration: none;
    border: 2px solid #fff;
    font: 13px/16px 'Montserrat', Arial, sans-serif;
    color: #fff;
    text-transform:uppercase;
-   margin-left:43px;
+   margin-left:31px;
    
 }
