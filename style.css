@@ -25,7 +25,8 @@ body {
 
 .menu-model__item:first-child {
    margin-left:260px;
-   margin-right:60px;
+	margin-right:60px;
+	text-decoration-color: #E51937
 }
 
 .menu-model__item:nth-child(2) {
@@ -462,3 +463,67 @@ webkit-transform: rotate(45deg);
    margin-left:31px;
    
 }
+
+@media screen and (max-width:768px) { 
+	
+	.header {	
+		margin-left:14px;
+	}
+    .menu-model {
+		 display:none;
+	 }
+
+.first-section {
+	background-position: 0px 123px, 35px 204px;
+    background-repeat: no-repeat;
+    background-size: 822px, 699px;
+}
+
+
+.first-section__title {
+	margin-top: 82px;
+}
+
+.wrapper {
+	display:flex;
+	flex-direction:column;
+	margin-top: 321px;
+}
+
+.first-section__speed {
+	background-position: 0px 75px;
+    padding-left: 79px;
+    margin-top: 73px;
+	 background-size: 78px;
+	 background-image: url(images/Vector.png);
+}
+
+.first-section__speed-miles {
+	justify-content: space-between;
+	min-width: 500px;
+}
+
+
+.first-section__speed_numb {
+	font-size:50px;
+	line-height:61px;
+	margin-top: 58px;
+    margin-left: 16px;
+}
+
+.first-section__speed_value {
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.first-section__speed_ref {
+	font-size: 12px;
+	line-height: 15px;
+}
+
+
+
+
+
+
+	}
