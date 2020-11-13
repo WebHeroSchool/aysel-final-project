@@ -559,9 +559,9 @@ webkit-transform: rotate(45deg);
 }
 
 .first-section__test-order {
-	background-position: 192px 64px;
+	background-position: 173px 64px;
     min-width: 500px;
-    padding-left: 305px;
+    padding-left: 265px;
     background-size: 162px;
 }
 
@@ -570,17 +570,76 @@ webkit-transform: rotate(45deg);
 	margin-top: 50px;
 	font-size: 16px;
 	line-height: 20px;
-	margin-left: 86px;
+	margin-left: 105px;
 }
 
 .arrow-down {
 	display: block;
+	width: 0px;
 	padding:10px;
 	margin: 0 auto;
     margin-top: 48px;
 }
 
+.second-section {
+	flex-direction: column;
+	background-image: url(images/2014-tesla-model-s-cockpit.png);
+	background-position: 0px 67px;
+}
+
+.second-section__title {
+	margin-right: 44px;
+	align-self: flex-end;
+	margin-bottom: 388px;
+}
+
+.second-section__aside {
+	padding-left: 34px;
+    padding-top: 15px;
+}
 
 
 
+.second-section__wrapp-title-info {
+	display:flex;
+	justify-content: space-between;
+}
 
+.second-section__text {
+	margin-top: 23px;
+}
+
+.second-section__info {
+	margin-right: 64px;
+    margin-top: 6px;
+}
+
+.second-section__wifi {
+	background-position: 0px 12px;
+}
+
+.second-section__wireless {
+	margin-top: 20px;
+    padding-left: 64px;
+}
+
+.second-section__wifi-info {
+	margin-top: -18px;
+}
+
+.second-section__volume {
+	margin-top: 22px;
+}
+
+.second-section__volume-info {
+	margin-bottom: 90px;
+}
+
+.second-section__learn-more {
+	font-size: 16px;
+	line-height: 20px;
+	margin-left: 120px;
+    margin-top: 9px;
+    display: inline-block;
+    padding-left: 46px;
+}
