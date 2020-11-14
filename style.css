@@ -735,3 +735,97 @@ display: none;
 	 font-size: 16px;
 	 margin-right: 67px;
 }
+}
+
+@media screen and (max-width: 760px) {
+   .first-section__test-order {
+      min-width: auto;
+   }
+
+   .first-section__order-button {
+      margin-left: 0px;
+  }
+
+  .first-section__speed-miles {
+   justify-content: space-between;
+   min-width: 0;
+   }
+
+
+}
+
+@media screen and (max-width: 375px) {
+   body {
+      margin-top: 0px;
+  }
+
+.header {
+	margin-left: 2px;
+	margin-top: 5px;
+
+}
+.logo {
+	background-image: url(images/Wordmark-Red-375.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+.first-section {
+	background-image: url(images/Tesla-Wordmark-375.png), url(images/tesla-png-tesla-375png.png);
+	background-repeat: no-repeat;
+	background-position: 100px 100px, 100px 100px;
+	background-size: auto;
+}
+
+.first-section__title {
+	font-size: 50px;
+	line-height:61px;
+	margin-top: 21px;
+}
+.first-section__subtitle {
+	 font-size:10px;
+	 line-height: 13px;
+	 margin-top: -2px;
+}
+
+
+
+
+  .first-section__miles {
+     padding-left: 0px;
+  }
+
+  .first-section__test-order {
+      padding-left: 0px;
+  }
+ 
+  .second-section__aside {
+     padding-left: 0px;
+     min-width: auto;
+  }
+
+  .second-section__info {
+     display: none;
+  }
+
+  .second-section__more-order {
+     display: none;
+  }
+
+  .third-section__aside {
+	padding-left: 0px;
+	padding-right: 0px;
+  }
+  
+  .third-section__title-evaluation {
+	  display: none;
+  }
+
+  .third-section__more-order {
+	  display: none;
+  }
+
+
+}
+
+
