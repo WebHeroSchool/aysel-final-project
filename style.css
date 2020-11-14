@@ -223,6 +223,7 @@ webkit-transform: rotate(45deg);
 	min-width:440px;
 	box-sizing:border-box;
 
+
 }
 
 .second-section__second-title {
@@ -233,7 +234,7 @@ webkit-transform: rotate(45deg);
 }
 
 .second-section__text {
-   font: 500 16px/18px 'Montserrat', Arial, sans-serif;
+   font: 500 15px/18px 'Montserrat', Arial, sans-serif;
    color: #fff;
 }
 
@@ -866,16 +867,51 @@ line-height: 10px;
 .first-section__order-button {
 	font-size:13px;
 	line-height:16px;
-	margin-top: 35px;
-	padding: 11px 65px;
+	margin-top: 34px;
+    padding: 11px 43px;
+    margin-left: 143px;
 }
 
+.first-section__test-order {
+	background-position: -3px 44px;
+	background-size: 124px;
+}
+
+.arrow-down {
+	margin-top:22px;
+}
+
+.second-section {
+	background-image: url(images/2013-tesla-375.png);
+	background-position: 0px 0px;
+}
+
+
+.second-section__title {
+	display: none;
+}
 
 
   .second-section__aside {
      padding-left: 0px;
-     min-width: auto;
+	  min-width: auto;
+	  margin-top: 327px;
+	  padding-bottom:6px;
   }
+
+.second-section__wrapp-title-text {
+	padding-left: 24px;
+}
+
+.second-section__second-title {
+	margin-top: 3px;
+
+}
+
+.second-section__text {
+	margin-top: 14px;
+}
+
 
   .second-section__info {
      display: none;
