@@ -466,6 +466,10 @@ webkit-transform: rotate(45deg);
 
 @media screen and (max-width:768px) { 
 	
+	.body {
+		margin-bottom: 0px;
+	}
+
 	.header {	
 		margin-left:14px;
 	}
@@ -670,4 +674,64 @@ align-items: flex-start;
 
 .third-section__aside {
 	margin-top: 540px;
+	min-width: 100%;
+	padding-bottom: 32px;
+}
+
+.third-section__title-evaluation {
+	display:flex;
+
+}
+
+.third-section__title {
+	margin-top: 28px;
+    margin-left: 5px;
+}
+
+.third-section__text {
+	margin-left: 6px;
+}
+
+.third-section__second-title {
+	margin-top: 63px;
+	margin-left: 72px;
+}
+
+.third-section__evaluation-star {
+	margin-left: 46px;
+}
+
+.stars {
+	min-width: 320px;
+}
+
+.third-section__evaluation {
+display: none;
+}
+
+.third-section__more-order {
+	display: flex;
+	justify-content: space-between;
+	max-width: 535px;
+	margin: 0 auto;
+}
+
+.third-section__learn-more {
+	margin-top: 67px;
+	background-size: 30px;
+	padding-bottom: 30px;
+	padding-left: 46px;
+	font-size: 16px;
+	padding-top: 8px;
+}
+
+
+
+.third-section__order-button {
+	margin-top: 0px;
+	align-self: center;
+    padding: 18px 64px;
+    margin-top: 23px;
+	 font-size: 16px;
+	 margin-right: 67px;
 }
