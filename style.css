@@ -60,8 +60,39 @@ body {
 
 
 #hamburger-menu__menu-toggle {
-   display: none;
+   visibility: hidden;
 }
+
+.menu__btn {
+	display: flex; 
+	align-items: center;  
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+	z-index: 1;
+ }
+ .menu__btn > span,
+ .menu__btn > span::before,
+ .menu__btn > span::after {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #E51937;
+ }
+ .menu__btn > span::before {
+	content: '';
+	top: -8px;
+ }
+ .menu__btn > span::after {
+	content: '';
+	top: 8px;
+ }
+ 
+
 
 .first-section__title {
 display:flex;
@@ -884,6 +915,7 @@ line-height: 10px;
 .second-section {
 	background-image: url(images/2013-tesla-375.png);
 	background-position: 0px 0px;
+
 }
 
 
@@ -920,16 +952,33 @@ line-height: 10px;
   .second-section__more-order {
      display: none;
   }
+  
+  .third-section {
+background-size: 396px, 354.8px;
+    background-position: 2px 46px, 5px 56px;
+}
+  }
 
   .third-section__aside {
 	padding-left: 0px;
 	padding-right: 0px;
+	margin-top:294px;
   }
   
-  .third-section__title-evaluation {
-	  display: none;
+  .third-section__title  {
+	margin-top: 18px;
+	margin-left: 29px;
   }
 
+.third-section__text {
+	margin-left: 32px;
+}
+
+
+  .third-section__save-star {
+    display:none;
+
+  }
   .third-section__more-order {
 	  display: none;
   }
