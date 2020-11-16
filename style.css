@@ -8,6 +8,14 @@ body {
    height:51px;
    background: url(images/Tesla-Wordmark-RedO.svg); 
 }
+
+.selection {
+	max-width:1440px;
+	margin: 0 auto;
+}
+
+
+
 .header {
    display: flex;
    align-items: center;
@@ -502,6 +510,28 @@ display: block;
    
 }
 
+@media screen and (max-width:1439px) {
+  .menu-model {
+	  display:none;
+  }
+	
+  .first-section {
+	  background-size: contain;
+  }
+
+}
+
+@media screen and  (min-width:1000px) and (max-width:1439px) {
+
+	.first-section{
+		background-size: 700px;
+		background-position: 201px 130px,200px 200px;
+	}
+
+	}
+
+
+
 @media screen and (max-width:768px) { 
 	
 	.body {
@@ -526,7 +556,8 @@ display: block;
 .first-section {
 	background-position: 0px 123px, 35px 204px;
     background-repeat: no-repeat;
-    background-size: 822px, 699px;
+	 background-size: 822px, 699px;
+
 }
 
 
@@ -797,10 +828,22 @@ display: none;
 }
 }
 
+
+
+
+
+
 @media screen and (max-width: 760px) {
+
+	.first-section {
+		background-size: contain;
+		background-position: center 110px, center;
+	}
+
    .first-section__test-order {
       min-width: auto;
-   }
+	}
+
 
    .first-section__order-button {
       margin-left: 0px;
@@ -810,6 +853,7 @@ display: none;
    justify-content: space-between;
    min-width: 0;
    }
+
 
 
 }
