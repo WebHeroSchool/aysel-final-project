@@ -232,24 +232,24 @@ margin-left:0px;
 
 
 .arrow-down{
-border: solid #E51937;
+	border: solid #E51937;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 6px;
-transform: rotate(45deg);
-webkit-transform: rotate(45deg);
-width: 0;
-display: block;
-    margin: 0 auto;
-    padding: 0px 19px 21px 0px;
-    margin-top: -35px;
-   }
+	transform: rotate(45deg);
+	webkit-transform: rotate(45deg);
+	width: 0;
+	display: block;
+  margin: 0 auto;
+  padding: 0px 19px 21px 0px;
+  margin-top: -35px;
+}
 
   .second-section {
    display:flex;
    justify-content:space-between;
    background-image: url(images/2013-tesla-model-s-cockpit.png);
-   background-position: 0px 100px;
+	 background-position: 0px 95px;
    background-repeat: no-repeat; 
    
 
@@ -266,11 +266,12 @@ display: block;
 }
 
 .second-section__aside {
+	
    padding-left:50px;
    padding-right:20px;
    margin-top:39px;
    background-color: #E51937;
-	padding-bottom: 47px;
+	 padding-bottom: 76px;
 	min-width:440px;
 	box-sizing:border-box;
 
@@ -399,7 +400,7 @@ display: block;
    justify-content:space-between;
    background-image: url(images/Model\ S.png), url(images/Car\ frame\ group.png), url(images/Group\ 12.png);
    background-repeat: no-repeat; 
-   background-position: 643px 170px, 345px 199px, 1328px 878px;
+	 background-position: 646px 143px, 345px 170px, 1328px 849px;
 }
 
 .third-section__aside {
@@ -414,7 +415,7 @@ display: block;
 
 .third-section__title-evaluation {
 	margin-left: 4px;
-	margin-top: 82px;
+	margin-top: 52px;
 
 }
 
@@ -830,11 +831,11 @@ align-items: flex-start;
 .third-section {
 	background-image: url(images/models-768.png), url(images/Car-768.png);
 	background-repeat: no-repeat;
-	background-position: 96px 74px, 0px 78px;
+	background-position: 95px 44px, 0px 47px;
 }
 
 .third-section__aside {
-	margin-top: 540px;
+	margin-top: 509px;
 	padding-bottom: 32px;
 	padding-left: 28px;
 	max-width: none;
@@ -1258,6 +1259,7 @@ line-height: 10px;
 	  display: none;
   }
 }
+
 
 
 
