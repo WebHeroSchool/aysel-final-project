@@ -734,6 +734,8 @@ display: block;
 	align-self: flex-end;
 	margin-top: 73px;
 	margin-bottom: 370px;
+	font-size:70px;
+	
 }
 
 .second-section__aside {
@@ -825,6 +827,7 @@ align-items: flex-start;
 .third-section__title-evaluation {
 	display:flex;
 	margin-top: 33px;
+	margin-left:0px;
 
 }
 
@@ -881,9 +884,9 @@ display: none;
 	margin-top: 0px;
 	align-self: center;
     padding: 18px 64px;
-    margin-top: 23px;
+    margin-top: 46px;
 	 font-size: 16px;
-	 margin-right: 67px;
+	 margin-right: 66px;
 }
 }
 
@@ -984,7 +987,7 @@ display: none;
 		padding-left: 70px;
 	}
 
-	
+
 	.first-section__order-button {
 		padding: 15px 40px;
 	}
@@ -1169,18 +1172,23 @@ line-height: 10px;
   }
 
 .second-section__wrapp-title-text {
-	padding-left: 24px;
+	padding-left: 12px;
 }
 
 .second-section__second-title {
 	margin-top: 3px;
+	font-size:30px;
+	line-height: 36px;
 
 }
 
 .second-section__text {
 	margin-top: 12px;
-    margin-left: 3px;
+	 margin-left: 3px;
+	 font-size:15px;
+	line-height: 18px;
 }
+
 
 
   .second-section__info {
@@ -1192,8 +1200,11 @@ line-height: 10px;
   }
   
   .third-section {
-background-size: 396px, 354.8px;
-    background-position: 2px 46px, 5px 56px;
+	  background-image: url(images/Group\ 15side375.png), url(images/Group\ 16front375.png), url(images/Group\ 17.png),url(images/car375.png),url(images/Model\ SS.png);
+   background-repeat: no-repeat;
+	background-size: 67px,67px, 85px, 362px, 400px;
+	background-position: 185px 59px, 88px 76px, 204px 205px,0px 76px, 0px 51px;
+}
 }
 
   .third-section__aside {
@@ -1207,14 +1218,17 @@ background-size: 396px, 354.8px;
 	margin-top: 2px;
 	margin-left: 0px;
 }
+
   
   .third-section__title  {
 	margin-top: 18px;
-	margin-left: 29px;
+	margin-left: 18px;
   }
 
 .third-section__text {
-	margin-left: 32px;
+	margin-left: 15px;
+	font-size:15px;
+	line-height:18px;
 }
 
 
