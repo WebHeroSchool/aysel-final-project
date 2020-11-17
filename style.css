@@ -525,11 +525,21 @@ display: block;
 
 	.first-section{
 		background-size: 700px;
-		background-position: 201px 130px,200px 200px;
+		background-position: center 130px, center 200px;
 	}
 
 	}
 
+
+
+@media screen and (min-width:580px) and (max-width:999px) {
+
+	.first-section {
+		background-position: 35px 122px, 13px 200px;
+
+		
+  }
+	}
 
 
 @media screen and (max-width:768px) { 
@@ -837,7 +847,7 @@ display: none;
 
 	.first-section {
 		background-size: contain;
-		background-position: center 110px, center;
+		background-position: center 167px, center;
 	}
 
    .first-section__test-order {
@@ -856,6 +866,15 @@ display: none;
 
 
 
+}
+
+@media screen and (min-width:380px) and (max-width:570px) {
+	.first-section {
+		background-position: 26px 108px, center 219px;
+	}
+
+	}
+	
 }
 
 @media screen and (max-width: 375px) {
