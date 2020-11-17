@@ -517,9 +517,14 @@ display: block;
 	
   .first-section {
 	background-size: contain;
-	  background-position: center 200px,center 200px;
-
   }
+
+.third-section {
+	background-image: url(images/Model\ S.png), url(images/Car\ frame\ group.png);
+	background-position: center 200px,center 200px;
+
+
+}
 
   .third-section__aside {
 	  min-width:100%;
@@ -582,7 +587,6 @@ display: block;
   }
 
 	}
-
 
 
 
@@ -927,8 +931,43 @@ display: none;
    min-width: 0;
    }
 
+.second-section__wrapp-title-info {
+	flex-direction: column;
+	align-items: center;
+}
 
+.second-section__text {
+	font-size:19px;
+	line-height:23px;
+}
+.second-section__more-order {
+	flex-direction: column;
+	align-items: center;
 
+}
+.second-section__order-button {
+	margin-left: 0px;
+}
+
+.second-section__learn-more {
+	margin-left:0px;
+}
+
+.third-section__title-evaluation {
+	flex-direction: column;
+	 align-items: center;
+	margin-left: 0px; 
+   margin-right:0px;
+}
+
+.third-section__evaluation-star {
+	margin-left: 0px;
+}
+
+third-section__text {
+	font-size: 17px;
+	line-height: 26px;
+}
 }
 
 @media screen and (min-width:380px) and (max-width:570px) {
