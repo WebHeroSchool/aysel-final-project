@@ -971,11 +971,27 @@ third-section__text {
 }
 
 
-@media screen and (min-width:380px) and (max-width:570px) {
+@media screen and (min-width:376px) and (max-width:570px) {
 	.first-section {
 		background-position: 26px 108px, center 219px;
 	}
 
+	.first-section__order-button {
+		padding: 15px 40px;
+	}
+	
+	.second-section__aside {
+	  min-width: auto;
+	}
+
+.second-section__title {
+	margin-right:0px;
+}
+
+	.second-section__text {
+		font-size:15px;
+		line-height: 19px;
+	}
 	.third-section__more-order {
 		flex-direction:column;
 		align-items: center;
