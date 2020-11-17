@@ -1205,9 +1205,9 @@ line-height: 10px;
 	background-size: 67px,67px, 85px, 362px, 400px;
 	background-position: 185px 59px, 88px 76px, 204px 205px,0px 76px, 0px 51px;
 }
-}
 
-  .third-section__aside {
+
+.third-section__aside {
 	padding-left: 0px;
 	padding-right: 0px;
 	margin-top:296px;
@@ -1239,9 +1239,11 @@ line-height: 10px;
   .third-section__more-order {
 	  display: none;
   }
+}
 
 
-  }
+
+  
 
 
 
