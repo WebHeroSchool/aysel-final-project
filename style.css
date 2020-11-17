@@ -964,7 +964,7 @@ display: none;
 	margin-left: 0px;
 }
 
-third-section__text {
+.third-section__text {
 	font-size: 17px;
 	line-height: 26px;
 }
@@ -976,10 +976,19 @@ third-section__text {
 		background-position: 26px 108px, center 219px;
 	}
 
+	.first-section__speed {
+		padding-left:70px;
+	}
+
+	.first-section__miles {
+		padding-left: 70px;
+	}
+
+	
 	.first-section__order-button {
 		padding: 15px 40px;
 	}
-	
+
 	.second-section__aside {
 	  min-width: auto;
 	}
