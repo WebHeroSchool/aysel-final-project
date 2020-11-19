@@ -5,61 +5,208 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="fonts.css">
 	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Tesla</title>
 </head>
 
 <body>
-	<header class="header">
-		<div class="logo">
-		</div>
-		<div class="hamburger-menu">
-			<input id="hamburger-menu__menu-toggle" type="checkbox" />
-			<label class="menu__btn" for="hamburger-menu__menu-toggle">
-				<span></span>
-			</label>
-
-			<div class="wrapper">
-				<nav class="menu-model">
-					<a href="#" class="menu-model__item menu-model__item_active">Model S</a>
-					<a href="#" class="menu-model__item">Model X</a>
-					<a href="#" class="menu-model__item">Model 3</a>
-					<a href="#" class="menu-model__item">Roadster</a>
-					<a href="#" class="menu-model__item">Energy</a>
-				</nav>
-				<nav class="menu-store">
-					<a href="#" class="menu-store__item">Магазин</a>
-					<a href="#" class="menu-store__item">Войти</a>
-				</nav>
+	<div class="selection">
+		<header class="header">
+			<div class="logo">
 			</div>
-	</header>
 
-	<section class="first-section">
-		<h1 class="first-section__title"> Model S </h1>
-		<p class="first-section__subtitle">Добро пожаловать в будущее</p>
-		<div class="first-section__info">
-			<div class="first-section__speed-data">
-				<img class="first-section__speed-img" src="" alt="">
-				<div class="first-section__speed">
-					<p class="first-section__speed-numb"> 2,7 <span class="info__speed-value" сек</span> </p>
-					<p class="first-section__speed-ref"> 0-100 км/час</p>
-				</div>
+			<nav class="menu-model">
+				<a href="#" class="menu-model__item menu-model__item_active">Model S</a>
+				<a href="#" class="menu-model__item">Model X</a>
+				<a href="#" class="menu-model__item">Model 3</a>
+				<a href="#" class="menu-model__item">Roadster</a>
+				<a href="#" class="menu-model__item">Energy</a>
+				<a href="#" class="menu-model__item">Магазин</a>
+				<a href="#" class="menu-model__item">Войти</a>
+			</nav>
 
-				<div class="first-section__miles">
-					<img class="first-section__miles-img" src="" alt="">
-					<div class="first-section__miles-data">
-						<p class="first-section__miles-numb"> 632 <span class="first-section__miles-value">км</span></p>
-						<p class="first-section__miles-other">запас хода </p>
+			<div class="hamburger-menu">
+				<input id="hamburger-menu__menu-toggle" type="checkbox" />
+				<label class="menu__btn" for="hamburger-menu__menu-toggle">
+					<span></span>
+				</label>
+			</div>
+		</header>
+
+		<section class="first-section">
+			<h1 class="first-section__title"> Model S </h1>
+			<p class="first-section__subtitle">Добро пожаловать в будущее!</p>
+			<div class="wrapper">
+				<div class="first-section__speed-miles">
+					<div class="first-section__speed">
+						<p class="first-section__speed_numb">2,7<span class="first-section__speed_value">сек</span> </p>
+						<p class="first-section__speed_ref"> 0-100 км/час</p>
+					</div>
+					<div class="first-section__miles">
+						<p class="first-section__miles_numb"> 632 <span class="first-section__miles_value">км</span></p>
+						<p class="first-section__miles_other">запас хода </p>
 					</div>
 				</div>
+				<div class="first-section__test-order">
+					<a href="#" class="first-section__order-button">Заказать</a>
+				</div>
+			</div>
+			<span class="arrow-down"> </span>
+		</section>
 
-				<div class="first-section__info-test">
-					<p class="first-section__test-drive"> Тест драйв</p>
+		<section class="second-section">
+			<h1 class="second-section__title">Model S</h1>
+			<aside class="second-section__aside">
+				<div class="second-section__wrapp-title-info">
+					<div class="second-section__wrapp-title-text">
+						<h2 class="second-section__second-title">Будущее вождения</h2>
+						<pre class="second-section__text">
+Модель S обладает лучшей в своем
+классе вместимостью: в машине     
+поместится до пяти взрослых и двух
+детей. Оснащена современным     
+17-дюймовым сенсорным экраном.
+Усовершенствованная шумовая
+инженерия создает динамику звука,
+сравнимую со студией звукозаписи, а 
+стеклянная крыша обеспечивает
+просторный интерьер для каждого
+пассажира.
+					</pre>
+					</div>
+					<div class="second-section__info">
+						<div class="second-section__display">
+							<p class="second-section__inch"> 17 <span class="second-section__inch-value"> дюймов</span> </p>
+							<p class="second-section__add-info">Большой дисплей </p>
+						</div>
+
+						<div class="second-section__wifi">
+							<p class="second-section__wireless">Беспроводное </br>обновление ПО</p>
+							<p class="second-section__wifi-info"> Повышенная </br>
+								функциональность </p>
+						</div>
+
+						<div class="second-section__litre">
+							<p class="second-section__volume">894 <span class="second-section__volume-data">литра</span></p>
+							<p class="second-section__volume-info">Объем грузового </br> пространства </p>
+						</div>
+					</div>
+
 				</div>
 
-				<a href="#" class="first-section__order-button">Заказать</a>
-			</div>
-	</section>
+				<div class="second-section__more-order">
+					<a href="#" class="second-section__learn-more">Узнать больше</a>
+					<a href="#" class="second-section__order-button">Заказать</a>
+				</div>
+			</aside>
+		</section>
+		<section class="third-section">
+			<aside class="third-section__aside">
+				<div class="third-section__title-evaluation">
+					<div class="third-section__wrapp-title-text">
+						<h2 class="third-section__title"> Самый безопасный автомобиль в мире</h2>
+						<pre class="third-section__text">
+Модель S достигла наивысшей оценки
+безопасности любого автомобиля, 
+когда-либо испытанного, и установила 
+рекорд по наименьшей вероятности 
+травмы пассажиров - от несчастных 
+случаев на переднем, боковом, заднем
+сидении и в ДТП с переворотом авто.
+			  </pre>
+					</div>
+
+					<div class="third-section__save-star">
+						<h2 class="third-section__second-title">Оценка защиты:</h2>
+
+						<div class="third-section__evaluation-star">
+							<div class="stars">
+								<p class="third-section__star-evaluation">Спереди</p>
+
+								<div class="third-section__star-evaluation-images">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+								</div>
+							</div>
+
+							<div class="stars">
+								<p class="third-section__star-evaluation">Сбоку</p>
+
+								<div class="third-section__star-evaluation-images">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+								</div>
+							</div>
+
+							<div class="stars">
+								<p class="third-section__star-evaluation">Сбоку <span
+										class="third-section__star-evaluation_add-info">
+										(Стойка)</span></p>
+
+								<div class="star-evaluation-images">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+								</div>
+							</div>
+
+							<div class="stars">
+								<p class="third-section__star-evaluation">Водитель</p>
+								<div class="third-section__star-evaluation-images">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+								</div>
+							</div>
+
+
+							<div class="stars">
+								<p class="third-section__star-evaluation">Пассажир</p>
+
+								<div class="third-section__star-evaluation-images">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+									<img class="third-section__star-svg" src="images/Star.svg">
+								</div>
+							</div>
+						</div>
+
+
+
+					</div>
+
+
+
+				</div>
+
+
+				<div class="third-section__evaluation">
+					<p class="third-section__evaluation_value"> 5 звезд <span class="third-section__evaluation-info"> <br>
+							безопасности</span> </p>
+				</div>
+
+				<div class="third-section__more-order">
+					<a href="#" class="third-section__learn-more">Узнать больше</a>
+					<a href="#" class="third-section__order-button">Заказать</a>
+				</div>
+
+			</aside>
+
+		</section>
+	</div>
 </body>
 
 </html>

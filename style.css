@@ -1,26 +1,1556 @@
- body {
-	 margin:0;
- }
-
- .header {
-	display: flex;
-	margin-top: 2%;
-	margin-left:3%;
-	
+body {
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
 }
 
 .logo {
-	width:166px;
-	height:51px;
-	background: url(images/Tesla-Wordmark-RedO.svg); 
+   width:166px;
+   height:51px;
+   background: url(images/Tesla-Wordmark-RedO.svg); 
+}
+
+.selection {
+	max-width:1440px;
+	margin: 0 auto;
+}
+
+
+
+.header {
+   display: flex;
+   align-items: center;
+   margin-top: 23px;
+   margin-left:42px;
+   
+
+} 
+
+.menu-model {
+   font: 600 15px/19px 'Montserrat', Arial, sans-serif;
+	margin-top: 4px;
+}
+
+.menu-model__item {
+		color: #000;
+		text-decoration: none;
+}
+
+.menu-model__item_active {
+	color: #E51937;
+	border-bottom: 2px solid #E51937;
+	padding-bottom:5px;
+}
+
+.menu-model__item:first-child {
+   margin-left:260px;
+	margin-right:60px;
+	}
+
+.menu-model__item:nth-child(2) {
+	margin-right:21px;
+	
+   
+}
+.menu-model__item:nth-child(3) {
+	margin-right:40px;
+	 
+}
+
+.menu-model__item:nth-child(4) {
+   margin-right:42px;
+   
+}
+
+.menu-model__item:nth-child(5) {
+	margin-right:217px;
+	
+}
+
+.menu-model__item:nth-child(6) {
+	margin-right:26px;
+
+}
+
+.menu-model__item:nth-child(7) {
+
+}
+
+
+#hamburger-menu__menu-toggle {
+   visibility: hidden;
+}
+
+.menu__btn {
+	display: flex; 
+	align-items: center;  
+	position: absolute;
+    right: 58px;
+    top: 37px;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+	z-index: 1;
+ }
+ .menu__btn > span,
+ .menu__btn > span::before,
+ .menu__btn > span::after {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #E51937;
+ }
+ .menu__btn > span::before {
+	content: '';
+	top: -7px;
+ }
+ .menu__btn > span::after {
+	content: '';
+	top: 7px;
+ }
+ 
+
+
+.first-section__title {
+display:flex;
+justify-content: center;
+font: 600 89px/108px 'Montserrat', Arial, sans-serif;
+margin-top: 60px;
+letter-spacing:0px;
+margin-bottom:0px;
+margin-left:0px;
+
+
+}
+.first-section__subtitle {
+   display:flex;
+   justify-content: center;
+   font: 500 15px/19px 'Montserrat', Arial, sans-serif;
+   letter-spacing:0px;
+   margin-bottom:86px;
+   margin-top: -8px;
+   }
+      
+.first-section { 
+   background-image: url(images/Tesla-Wordmark-Red.png), url(images/1tesla-png-tesla-png-hd-1636.png);
+   background-position: center 39px, 42% 143px;
+   background-repeat: no-repeat;
+
 }
 
 .wrapper {
-	display: flex;
-	font: 600 15px/19px 'Montserrat', Arial, sans-serif;
-	margin-top: 3%;
+   display:flex;
+   justify-content:space-between;
+   max-width: 798px;
+   margin: 0 auto;
+   margin-top:386px;
+   align-items:center;
+   
 }
 
-#hamburger-menu__menu-toggle {
+.first-section__speed-miles {
+   display:flex;
+   
+}
+
+.first-section__speed {
+   background-image: url(images/Group\ \(1\).svg);
+   background-repeat: no-repeat;
+   background-position: -3px 46px;
+   padding-left: 60px;
+   margin-top:82px;
+
+}
+
+.first-section__miles {
+   background-image: url(images/Road\ icon\ \(1\).svg);
+   background-position:84px 10px;
+   background-repeat: no-repeat;
+   padding-left: 130px;
+   margin-top: 114px;
+   margin-bottom:61px;
+
+}
+
+.first-section__speed_ref {
+   margin-top:-36px;
+   font: 400 12px/15px 'Montserrat', Arial, sans-serif;
+}
+
+.first-section__speed_numb {
+   font: 600 35px/43px 'Montserrat', Arial, sans-serif;
+}
+
+.first-section__speed_value {
+	font: 600 20px/25px 'Montserrat', Arial, sans-serif;
+	position: relative;
+	left: 7px;
+}
+
+
+.first-section__miles_numb {
+   font: 600 35px/43px 'Montserrat', Arial, sans-serif;
+   margin-block-start: 0px;
+   scroll-margin-block-end: 0px;
+   margin-bottom: 0px;
+}
+
+.first-section__miles_value {
+	font: 600 20px/25px 'Montserrat', Arial, sans-serif;
+	position: relative;
+  left: -3px;
+}
+
+.first-section__miles_other {
+   font: 600 12px/15px 'Montserrat', Arial, sans-serif;
+   margin-block-start: 0px;
+   margin-block-end: 0px;
+   
+
+   
+}
+
+.first-section__test-order {
+   display:flex;
+   justify-content:space-between;
+   background-image: url(images/Test\ drive\ 1.png);
+   background-repeat: no-repeat;
+   background-position: 76px 69px;
+   padding-bottom:1px;
+   padding-left: 238px;
+   
+}
+
+
+.first-section__order-button {
+   padding:9.5px 42.5px;
+   margin-top:61px;
+   text-decoration: none;
+   border: 2px solid #E51937;
+	 font: 13px/16px 'Montserrat', Arial, sans-serif;
+	 font-weight: 700;
+   color: #E51937;
+   text-transform:uppercase;
+}
+
+
+.arrow-down{
+	border: solid #E51937;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+	transform: rotate(45deg);
+	webkit-transform: rotate(45deg);
+	width: 0;
+	display: block;
+  margin: 0 auto;
+  padding: 0px 19px 21px 0px;
+  margin-top: -35px;
+}
+
+  .second-section {
+   display:flex;
+   justify-content:space-between;
+   background-image: url(images/2013-tesla-model-s-cockpit.png);
+	 background-position: 0px 95px;
+   background-repeat: no-repeat; 
+   
+
+  }
+
+
+.second-section__title {
+   color: #E51937;
+   font: 600 70px/85px 'Montserrat', Arial, sans-serif;
+   margin:0px;
+   margin-left: 80px;
+	 margin-top:105px;
+}
+
+.second-section__aside {
+	
+   padding-left:48px;
+   padding-right:20px;
+   margin-top:39px;
+   background-color: #E51937;
+	 padding-bottom: 74px;
+	min-width:440px;
+	box-sizing:border-box;
+
+
+}
+
+.second-section__second-title {
+   font: 600 30px/36px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+	 margin-top: 53px;
+	 margin-left: 4px;
+	 margin-bottom: 11px;
+}
+
+.second-section__text {
+   font: 500 15px/18px 'Montserrat', Arial, sans-serif;
+	 color: #fff;
+	 margin-left: 4px;
+	 margin-top: 12px;
+}
+
+.second-section__info {
+	margin-bottom: 185px;
+}
+
+.second-section__display {
+   background-image: url(images/screen.svg);
+   background-repeat: no-repeat;
+   margin-top: 52px;
+	border: 1px solid transparent;
+	padding-left:58px;
+	background-position: 3px 1px;
+}
+
+.second-section__wifi {
+   background-image: url(images/Group1.svg);
+   background-repeat: no-repeat;
+   background-position:0px 13px;
+}
+
+.second-section__litre {
+   background-image: url(images/bag.svg);
+   background-repeat: no-repeat;
+	 background-position: 4px 12px;
+
+   
+}
+
+.second-section__inch {
+   font: 600 35px/43px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+   margin-top:-11px;
+
+}
+
+.second-section__inch-value {
+   font: 600 20px/25px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+}
+
+.second-section__add-info {
+   font: 500 12px/15px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+   margin-top:-37px;
+}
+
+.second-section__wireless {
+   font: 600 20px/18px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+	margin-top: 35px;
+	padding-left: 64px;
+}
+
+.second-section__wifi-info {
+   font: 500 12px/15px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+	margin-top:-20px;
+	padding-left:63px;
+}
+
+.second-section__volume {
+   font: 500 35px/43px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+	margin-top:27px;
+	padding-left: 65px;
+	margin-bottom:0px;
+
+}
+
+.second-section__volume-data {
+   font: 500 20px/25px 'Montserrat', Arial, sans-serif;
+	color: #fff;
+	margin-top: 27px;
+
+   
+}
+
+.second-section__volume-info {
+   font: 500 12px/12px 'Montserrat', Arial, sans-serif;
+	color: #fff;
+	margin-left:64px;
+	margin-top:0px;
+}
+
+
+.second-section__learn-more {
+   text-transform:uppercase;
+   text-decoration: none;
+   font: 13px/16px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+   background-image: url(images/Group3.png);
+   background-repeat: no-repeat;
+	padding-right: 32px;
+	padding-left: 33px;
+	padding-bottom: 20px;
+	padding-top: 4px;
+}
+
+.second-section__order-button {
+   padding:10px 43px;
+   margin-top:53px;
+   text-decoration: none;
+   border: 2px solid #fff;
+   font: 13px/16px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+   text-transform:uppercase;
+}
+
+
+.third-section {
+   display:flex;
+   justify-content:space-between;
+   background-image: url(images/Car\ frame\ group.png), url(images/Model\ S.png), url(images/Group\ 12.png);
+   background-repeat: no-repeat; 
+	 background-position: 345px 170px, 646px 143px, 1328px 849px;
+}
+
+.third-section__aside {
+      max-width:394px;
+      padding-left: 23px;
+      padding-right:20px;
+      background-color: #E51937;
+      padding-bottom:70px;
+      z-index: -1;
+      
+}
+
+.third-section__title-evaluation {
+	margin-left: 4px;
+	margin-top: 53px;
+
+}
+
+.third-section__title {
+   font: 600 30px/36px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+   margin-top:45px;
+   margin-left:29px;
+   padding-bottom:20px;
+
+}
+
+.third-section__text {
+   font: 500 15px/18px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+	 margin-left: 29px;
+	 margin-top:-32px;
+}
+
+.third-section__second-title {
+   font: 600 30px/36px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+   margin-left:28px;
+	 margin-top: 39px;
+	 margin-bottom: 26px;
+}
+
+
+
+.stars {
+   display: flex;
+   justify-content: space-between;
+   max-width: 320px;
+   margin-bottom: 10px;
+}
+
+
+.third-section__star-evaluation {
+   font: 600 17px/21px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+   text-transform:uppercase;
+   margin: 0px;
+   margin-left:28px;
+   margin-top: 3px;
+}
+
+.third-section__star-evaluation_add-info {
+   font: 600 10px/12px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+}
+
+.third-section__evaluation {
+   font: 600 50px/61px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+   background-image: url(images/security.svg);
+   background-repeat:no-repeat;
+	 background-position: 12px 97px;
+   margin-left: 30px;
+   line-height: 12px;
+   border: 1px solid transparent;
+}
+
+.third-section__evaluation-info {
+  font: 600 25px/31px 'Montserrat', Arial, sans-serif;
+  color: #fff;
+  line-height: 29px;
+}
+
+.third-section__evaluation_value {
+	margin-left: 96px;
+	margin-top: 112px;
+
+}
+
+.third-section__more-order {
+   margin-top: 20px;
+}
+
+.third-section__learn-more {
+   text-transform:uppercase;
+   text-decoration: none;
+   font: 13px/16px 'Montserrat', Arial, sans-serif;
+	 color: #fff;
+	 letter-spacing: 0.1px;
+	 background-image: url(images/Group3.png);
+	 background-position: 4px 2px;
+   background-repeat: no-repeat;
+   margin-left: 11px;
+   margin-bottom:20px;
+   padding-left:35px;
+	 padding-top:5px;
+	 padding-bottom: 3px;
+   
+
+
+}
+
+.third-section__order-button {
+   padding:10px 43px;
+   margin-top:53px;
+   text-decoration: none;
+   border: 2px solid #fff;
+   font: 13px/16px 'Montserrat', Arial, sans-serif;
+   color: #fff;
+   text-transform:uppercase;
+   margin-left:31px;
+   
+}
+
+@media screen and (max-width:1439px) {
+  .menu-model {
+	  display:none;
+  }
+	
+  .first-section {
+	background-size: contain;
+  }
+
+.third-section {
+	background-image:url(images/Car\ frame\ group.png), url(images/Model\ S.png);
+	background-position: center 200px,center 200px;
+
+
+}
+
+  .third-section__aside {
+	  min-width:100%;
+	  max-width:none;
+	  box-sizing: border-box;
+	  margin-top: 800px;
+  }
+
+.third-section__title-evaluation {
+	display:flex;
+	justify-content: space-between;
+	margin-top:0px;
+	max-width: 70%;
+	margin: 0 auto;
+	
+}
+
+.third-section__title {
+	max-width:322px;
+}
+
+.third-section__text {
+	font-size: 16px;
+}
+
+
+.third-section__evaluation {
+	display:none;
+}
+
+.third-section__more-order {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.third-section__learn-more {
+	    margin-bottom:0px;
+}
+
+.third-section__order-button {
+	margin-top: 0px;
+}
+
+}
+
+@media screen and  (min-width:1000px) and (max-width:1439px) {
+
+	.first-section{
+		background-size: 850px;
+		background-position: 335px 102px, center 200px;
+	}
+	}
+
+
+	
+@media screen and (min-width:769px) and (max-width: 1037px) {
+	.third-section {
+		background-size: contain, 600px;
+	}
+}
+
+
+@media screen and (min-width:580px) and (max-width:999px) {
+
+	.wrapper {
+		max-width: 748px;
+	}
+
+
+	.first-section {
+		background-position: 35px 122px, 13px 200px;	
+  }
+
+  .first-section__test-order {
+	background-position: 0px 69px;
+	padding-left: 180px;
+  }
+
+.second-section {
+	display:block;
+	background-position: 0px -31px;
+}
+
+.second-section__wrapp-title-info{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.second-section__title {
+	font-size: 70px;
+}
+
+.second-section__aside {
+ margin-top: 726px;
+ padding-left: 20px;
+ padding-right: 20px;
+}  
+
+.second-section__more-order {
+	display: flex;
+	 justify-content: center;
+    align-items: center;
+}
+
+.second-section__learn-more {
+	padding-bottom: 4px;
+}
+
+.second-section__order-button {
+	margin-top:0px;
+}
+
+.third-section__title-evaluation {
+	max-width: none;
+}
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:768px) { 
+	
+	.body {
+		margin-bottom: 0px;
+	}
+
+	.header {	
+		margin-left:14px;
+	}
+    .menu-model {
+		 display:none;
+	 }
+
+	 .menu__btn {
+		right: 34px;
+    width: 33px;
+	 }
+
+	.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    width: 100%;
+    height: 2px;
+    background-color: #E51937;
+}
+
+.menu__btn > span::before {
+	content: '';
+	top: -10px;
+}
+
+.menu__btn > span::after {
+	content: '';
+	top: 10px;
+}
+
+.first-section {
+	background-position: -9px 122px, 34px 206px;
+	background-repeat: no-repeat;
+	background-size: 831px, 701px;
+}
+
+
+.first-section__title {
+	margin-top: 82px;
+}
+
+.wrapper {
+	display:flex;
+	flex-direction:column;
+	margin-top: 321px;
+}
+
+.first-section__speed {
+	background-position: 0px 75px;
+    padding-left: 79px;
+    margin-top: 73px;
+	 background-image: url(images/Vector.png), url(images/Vector-768.png),url(images/Ellipse\ 768.png);
+	 background-size: 65.92px,30.17px,27.15px;
+	 background-position: 9px 73px,35px 101px,26px 93px;
+	 
+	}
+
+.first-section__speed-miles {
+	justify-content: space-between;
+	min-width: 500px;
+}
+
+
+.first-section__speed_numb {
+	font-size:50px;
+	line-height:61px;
+	margin-top: 58px;
+    margin-left: 16px;
+}
+
+.first-section__speed_value {
+	font-size: 20px;
+	line-height: 24px;
+	position: relative;
+    top: -7px;
+    left: 6px;
+}
+
+.first-section__speed_ref {
+	font-size: 12px;
+	line-height: 15px;
+	margin-top: -51px;
+   margin-left: 13px;
+}
+
+.first-section__miles {
+	background-image: url(images/road-768.png);
+	background-position: 70px 27px;
+	background-repeat: no-repeat;
+	background-size: 44px;
+	padding-bottom: 0px;
+	margin-bottom:0px;
+
+}
+.first-section__miles_numb {
+	font-size: 50px;
+	line-height: 61px;
+	margin-top: 17px;
+    margin-right: 24px;
+	 display: inline-flex;
+	 align-items: center;
+}
+
+
+
+.first-section__miles_value {
+	font-size: 20px;
+	line-height: 24px;
+	margin-top: 3px;
+	margin-left: 6px;
+	left: 4px;
+}
+
+.first-section__miles_other {
+	font-size: 12px;
+	line-height: 10px;
+}
+
+.first-section__test-order {
+	background-position: 173px 61px;
+    min-width: 500px;
+    padding-left: 265px;
+		background-size: 162px;
+		background-image: url(images/test-drive-768.png);
+}
+
+.first-section__order-button {
+	padding: 15px 63px;
+	margin-top: 50px;
+	font-size: 16px;
+	line-height: 20px;
+	margin-left: 105px;
+}
+
+.arrow-down {
+	display: block;
+	width: 0px;
+	padding:10px;
+	margin: 0 auto;
+  margin-top: 51px;
+}
+
+.second-section {
+	display: flex;
+	flex-direction: column;
+	background-image: url(images/2014-tesla-model-s-cockpit.png);
+	background-position: 0px 66px;
+}
+
+.second-section__title {
+	margin-right: 47px;
+	align-self: flex-end;
+	margin-top: 76px;
+	margin-bottom: 368px;
+	font-size:70px;
+}
+
+.second-section__aside {
+	margin-top: 39px;
+	padding-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 53px;
+}
+
+
+
+.second-section__wrapp-title-info {
+	display:flex;
+	justify-content: space-between;
+}
+
+
+.second-section__second-title {
+	margin-top: 41px;
+}
+
+.second-section__text {
+	margin-top: 23px;
+}
+
+.second-section__info {
+	margin-right: 64px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+}
+
+.second-section__display {
+	margin-top: 48px;
+}
+
+.second-section__wifi {
+	background-position: 0px 13px;
+}
+
+.second-section__litre {
+	background-position: 4px 11px;
+}
+.second-section__wireless {
+	margin-top: 21px;
+    padding-left: 64px;
+}
+
+.second-section__wifi-info {
+	margin-top: -18px;
+}
+
+.second-section__volume {
+	margin-top: 22px;
+}
+
+.second-section__volume-info {
+
+	margin-bottom: 73px;
+}
+
+.second-section__more-order {
+display: flex;
+align-items: flex-start;
+}
+
+.second-section__learn-more {
+	font-size: 16px;
+	line-height: 20px;
+	margin-left: -15px;
+	margin-top: 12px;
+	display: inline-block;
+	padding-left: 48px;
+	padding-top: 13px;
+	padding-bottom: 9px;
+	background-size: 32px;
+	background-position: 4px 7px;
+	letter-spacing: 0.3px;
+
+}
+
+.second-section__order-button {
+	margin-top: 6px;
+	margin-left: 12px;
+	padding: 16px 62px;
+	letter-spacing: 0.6px;
+	font-size: 16px;
+	line-height: 19px;
+
+}
+
+.third-section {
+	background-image: url(images/Car-768.png), url(images/models-768.png);
+	background-repeat: no-repeat;
+	background-position: 0px 76px, 97px 70px;
+}
+
+.third-section__aside {
+	margin-top: 538px;
+	padding-bottom: 53px;
+	padding-left: 28px;
+	max-width: none;
+}
+
+.third-section__title-evaluation {
+	display:flex;
+	margin-top: 33px;
+	margin-left:0px;
+
+}
+
+.third-section__title {
+	margin-top: 32px;
+		margin-left: 5px;
+		margin-bottom: 25px;
+}
+
+.third-section__text {
+	margin-left: 6px;
+	letter-spacing: 0px;
+	font-size: 15px;
+}
+
+.third-section__second-title {
+	margin-top: 30px;
+	margin-left:0px;
+	margin-bottom: 26px;
+	
+}
+
+.third-section__evaluation-star {
+	margin-left: 0px;
+}
+
+.third-section__star-evaluation {
+	margin-left: 0px;
+}
+
+.third-section__save-star {
+	margin-right: 32px;
+}
+.stars {
+	min-width: 293px;
+}
+
+.third-section__evaluation {
+display: none;
+}
+
+.third-section__more-order {
+	display: flex;
+	justify-content: space-between;
+	max-width: 580px;
+	margin: 0 auto;
+}
+
+.third-section__learn-more {
+	margin-top: 70px;
+	background-size: 31px;
+	padding-bottom: 30px;
+	padding-left: 87px;
+	font-size: 16px;
+	padding-top: 8px;
+	background-position: 44px 0px;
+}
+
+.third-section__order-button {
+	margin-top: 0px;
+	align-self: center;
+    padding: 17px 64px;
+    margin-top: 45px;
+	 font-size: 16px;
+	 margin-right: 66px;
+}
+}
+
+
+
+
+
+
+@media screen and (max-width: 760px) {
+
+	.first-section {
+		background-size: contain;
+		background-position: center 167px, center;
+	}
+
+.first-section__miles {
+	padding-left: 73px;
+	background-position: 19px 26px;
+	background-size: 54px;
+}
+
+.first-section__speed_numb {
+	font-size: 40px;
+}
+
+.first-section__miles_numb {
+	font-size: 40px;
+	line-height: 55px;
+}
+
+   .first-section__test-order {
+		min-width: auto;
+		background-position: 8px 67px;
+		padding-left: 194px;
+	}
+
+
+   .first-section__order-button {
+		margin-left: 0px;
+		padding: 15px 50px;
+  }
+
+  .first-section__speed-miles {
+		
+   justify-content: space-between;
+   min-width: 0;
+   }
+
+.second-section__wrapp-title-info {
+	flex-direction: column;
+	align-items: center;
+}
+
+.second-section__info {
+	margin-right:0px;
+}
+
+.second-section__second-title {
+	text-align: center;
+}
+.second-section__text {
+	font-size:19px;
+	line-height:23px;
+	text-align:center;
+}
+.second-section__more-order {
+	flex-direction: column;
+	align-items: center;
+
+}
+.second-section__order-button {
+	margin-left: 0px;
+}
+
+.second-section__learn-more {
+	margin-left:0px;
+}
+
+.third-section__title-evaluation {
+	flex-direction: column;
+	 align-items: center;
+	margin-left: 0px; 
+	margin-right:0px;
+	max-width: none;
+}
+
+.third-section__second-title {
+	margin-left: 0px;
+	text-align: center;
+}
+
+
+.third-section__evaluation-star {
+	margin-left: 0px;
+}
+
+.third-section__title {
+	text-align:center;
+	margin-left: 0px;
+	 margin: 0 auto;
+	 margin-bottom: 35px;
+}
+
+.third-section__text {
+	font-size: 19px;
+	line-height: 26px;
+	text-align:center;
+	margin-left: 0px;
+}
+
+.third-section__save-star {
+	margin-right: 0px;
+}
+
+}
+
+@media screen and (min-width:376px) and (max-width: 742px) {
+	.third-section {
+		background-size: contain;
+		background-position: center 80px, center 80px;;
+	}
+
+	.second-section__aside {
+	min-width:auto;
+	}
+}
+
+
+@media screen and (min-width:376px) and (max-width:570px) {
+	
+
+	.wrapper {
+		margin-top: 235px;
+	}
+
+
+	.first-section {
+		background-position: 24px 137px, center 219px;
+	}
+
+	.first-section__speed {
+		padding-left:70px;
+	}
+
+	.first-section__miles {
+		padding-left: 70px;
+	}
+
+
+	.first-section__order-button {
+		padding: 15px 40px;
+	}
+
+	.second-section__aside {
+			 padding-left:0px;
+			 padding-right: 0px;
+   
+	}
+
+
+	.second-section__info {
+	display:none;
+	}
+
+	
+
+.second-section__title {
+	margin-right:0px;
+}
+
+	.second-section__text {
+		font-size:16px;
+		line-height: 19px;
+	}
+
+.second-section__more-order {
+	display:none;
+}
+
+
+	.third-section__aside {
+		margin-top:350px;
+	}
+
+	.third-section__more-order {
+		flex-direction:column;
+		align-items: center;
+	}
+
+
+.third-section__text {
+	font-size: 16px;
+}
+
+
+.third-section__save-star {
+	display:none;
+}
+
+.third-section__more-order {
+	display:none;
+}
+
+
+	}
+	
+
+
+@media screen and (max-width: 375px) {
+   body {
+      margin-top: 0px;
+  }
+
+.header {
+	margin-left: 2px;
+	margin-top: 5px;
+
+}
+.logo {
+	background-image: url(images/Wordmark-Red-375.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+.menu__btn {  
+	right: 21px;
+	top: 14px;
+width: 23px;
+height: 23px;
+}
+
+.menu__btn > span::before {
+	content: '';
+	top: -6px;
+}
+
+.menu__btn > span::after {
+	content: '';
+	top: 6px;
+}
+
+
+.first-section {
+	background-image: url(images/Tesla-Wordmark-375.png), url(images/tesla-png-tesla-375png.png);
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-position: 0px 80px,9px 120px;
+	background-size: 376px, 357px 166px;
+
+}
+
+.first-section__title {
+	font-size: 50px;
+	line-height:61px;
+	margin-top: 21px;
+}
+.first-section__subtitle {
+	 font-size:10px;
+	 line-height: 13px;
+	 margin-top: -2px;
+}
+
+.wrapper {
+	margin-top: 240px;
+}
+
+.first-section__speed-miles {
+   min-width: 300px;
+}
+
+.first-section__speed {
+	background-image: url(images/iconfirst-1.png), url(images/vector-icon-3.png), url(images/ellipse-icon-2.png);
+	background-repeat: no-repeat;
+	background-position: 4px 8px, 18px 22px, 15px 18px;
+    background-size: 39.14px,17.45px,16.76px;
+	margin-top: 0px;
+	padding-left: 41px;
+
+}
+
+.first-section__speed_ref {
+margin-top: 0px;
+font-size: 10px;
+line-height: 10px;
+margin-left: 15px;
+
+}
+
+.first-section__speed_numb {
+	font-size: 27px;
+	line-height: 34px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.first-section__speed_value {
+	font-size: 15px;
+	line-height: 18px;
+	top: 0px;
+	left: 7px;
+}
+
+  .first-section__miles {
+	  padding-left: 50px;
+	  margin-top: 0px;
+		background-position: 12px 2px;
+    background-size: 25.5px;
+		letter-spacing: -0.2px;
+
+  }
+
+  .first-section__miles_numb {
+	font-size: 27px;
+	line-height: 33px;
+	margin-top: 0px;
+	margin-right: 18px;
+}
+
+.first-section__miles_value {
+	font-size: 15px;
+	line-height: 18px;
+	margin-left: 4px;
+	margin-top: 8px;
+}
+
+.first-section__miles_other {
+	font-size: 10px;
+	line-height: 12px;
+}
+
+
+  .first-section__test-order {
+		padding-left: 0px;
+
+  }
+ 
+.first-section__order-button {
+	font-size:13px;
+	line-height:16px;
+	margin-top: 34px;
+	padding: 10px 41px;
+	margin-left: 143px;
+		
+}
+
+.first-section__test-order {
+	background-position: 0px 43px;
+  background-size: 118px;
+	background-image: url('images/TestDrive-375.png');
+}
+
+.arrow-down {
+	margin-top:22px;
+}
+
+.second-section {
+	background-image: url(images/2013-tesla-375.png);
+	background-position: 0px 2px;
+
+}
+
+.second-section__title {
 	display: none;
 }
+
+
+  .second-section__aside {
+     padding-left: 0px;
+	  min-width: auto;
+	  margin-top: 328px;
+	  padding-bottom:6px;
+  }
+
+.second-section__wrapp-title-text {
+	padding-left: 12px;
+}
+
+.second-section__second-title {
+	margin-top: 4px;
+	margin-left: 0px;
+	font-size:30px;
+	line-height: 34px;
+	margin-bottom: -1px;
+}
+
+.second-section__text {
+	text-align: left;
+	margin-top: 13px;
+	margin-left: 1px;
+	font-size:15px;
+	line-height: 18px;
+}
+
+
+
+  .second-section__info {
+     display: none;
+  }
+
+  .second-section__more-order {
+     display: none;
+  }
+  
+  .third-section {
+	  background-image: url(images/Group\ 15side375.png), url(images/Group\ 16front375.png), url(images/Group\ 17.png),url(images/car375.png),url(images/Model\ SS.png);
+   background-repeat: no-repeat;
+	 background-size: 66px,68px, 86px, 361px, 400px;
+    background-position: 185px 58px, 88px 75px, 204px 204px,0px 75px, 0px 47px;
+}
+
+
+.third-section__aside {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top:296px;
+	padding-bottom: 40px;
+  }
+
+  .third-section__title-evaluation {
+	display: flex;
+	margin-top: 2px;
+	margin-left: 0px;
+}
+
+  
+  .third-section__title  {
+		text-align: left;
+	margin-top: 15px;
+  line-height: 37px;
+	margin-left: 10px;
+	margin-bottom: 24px;
+  }
+
+.third-section__text {
+	text-align: left;
+	margin-left: 9px;
+	font-size:15px;
+	line-height:18px;
+}
+
+
+  .third-section__save-star {
+    display:none;
+
+  }
+  .third-section__more-order {
+	  display: none;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+.menu__btn {
+right:27px;
+
+}
+
+	.first-section {
+		background-position: -1px 50px,-3px 120px;
+		background-size: 310px;
+}
+
+
+.first-section__speed-miles {
+	min-width: 300px;
+	margin-bottom: 20px;
+
+}
+
+
+.first-section__test-order {
+	background-position: left center;
+}
+
+.first-section__order-button{
+margin-top:0px;
+padding: 10px 33px;
+margin-left: 132px;
+}
+
+.arrow-down {
+	margin-bottom: 22px;
+}
+
+.second-section {
+	background-position: 0px 140px;
+}
+
+.second-section__title {
+	margin-left: 0px;
+	margin-right:30px;
+	margin-top: 70px;
+	margin-bottom: 320px;
+	font-size: 55px;
+	
+	
+}
+
+.second-section__aside {
+	padding-right: 0px;
+	margin-top: 0px;
+	padding-left: 0px;
+	min-width: auto;
+}
+
+
+.second-section__wrapp-title-text {
+	padding-left: 0px;
+}
+
+.second-section__second-title {
+	font-size: 23px;
+}
+
+.second-section__text {
+	font-size: 12px;
+}
+
+
+
+	.third-section {
+		background-size: 66px,68px, 86px, contain, 250px;
+    background-position: 185px 58px, 88px 75px, 204px 179px,0px 75px, 39px 27px;
+	}
+
+
+
+	.third-section__aside {
+    margin-top: 260px;
+}
+
+.third-section__wrapp-title-text {
+	align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.third-section__title {
+	font-size: 23px;
+	text-align:center;
+}
+
+.third-section__text {
+	font-size: 12px;
+}
+} 
+  
