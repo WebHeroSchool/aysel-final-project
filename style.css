@@ -407,9 +407,9 @@ margin-left:0px;
 .third-section {
    display:flex;
    justify-content:space-between;
-   background-image: url(images/Model\ S.png), url(images/Car\ frame\ group.png), url(images/Group\ 12.png);
+   background-image: url(images/Car\ frame\ group.png), url(images/Model\ S.png), url(images/Group\ 12.png);
    background-repeat: no-repeat; 
-	 background-position: 646px 143px, 345px 170px, 1328px 849px;
+	 background-position: 345px 170px, 646px 143px, 1328px 849px;
 }
 
 .third-section__aside {
@@ -544,7 +544,7 @@ margin-left:0px;
   }
 
 .third-section {
-	background-image: url(images/Model\ S.png), url(images/Car\ frame\ group.png);
+	background-image:url(images/Car\ frame\ group.png), url(images/Model\ S.png);
 	background-position: center 200px,center 200px;
 
 
@@ -561,14 +561,19 @@ margin-left:0px;
 	display:flex;
 	justify-content: space-between;
 	margin-top:0px;
-	margin-left: 30px;
-    margin-right: 110px;
+	max-width: 70%;
+	margin: 0 auto;
 	
 }
 
 .third-section__title {
 	max-width:322px;
 }
+
+.third-section__text {
+	font-size: 16px;
+}
+
 
 .third-section__evaluation {
 	display:none;
@@ -593,8 +598,8 @@ margin-left:0px;
 @media screen and  (min-width:1000px) and (max-width:1439px) {
 
 	.first-section{
-		background-size: 700px;
-		background-position: center 130px, center 200px;
+		background-size: 850px;
+		background-position: 335px 102px, center 200px;
 	}
 	}
 
@@ -602,7 +607,7 @@ margin-left:0px;
 	
 @media screen and (min-width:769px) and (max-width: 1037px) {
 	.third-section {
-		background-size: 600px, contain;
+		background-size: contain, 600px;
 	}
 }
 
@@ -869,9 +874,9 @@ align-items: flex-start;
 }
 
 .third-section {
-	background-image: url(images/models-768.png), url(images/Car-768.png);
+	background-image: url(images/Car-768.png), url(images/models-768.png);
 	background-repeat: no-repeat;
-	background-position: 97px 70px, 0px 76px;
+	background-position: 0px 76px, 97px 70px;
 }
 
 .third-section__aside {
@@ -998,9 +1003,17 @@ display: none;
 	align-items: center;
 }
 
+.second-section__info {
+	margin-right:0px;
+}
+
+.second-section__second-title {
+	text-align: center;
+}
 .second-section__text {
 	font-size:19px;
 	line-height:23px;
+	text-align:center;
 }
 .second-section__more-order {
 	flex-direction: column;
@@ -1026,9 +1039,14 @@ display: none;
 	margin-left: 0px;
 }
 
+.third-section__title {
+	text-align:center;
+}
+
 .third-section__text {
 	font-size: 17px;
 	line-height: 26px;
+	text-align:center;
 }
 }
 
