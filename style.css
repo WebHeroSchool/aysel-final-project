@@ -1032,8 +1032,15 @@ display: none;
 	flex-direction: column;
 	 align-items: center;
 	margin-left: 0px; 
-   margin-right:0px;
+	margin-right:0px;
+	max-width: none;
 }
+
+.third-section__second-title {
+	margin-left: 0px;
+	text-align: center;
+}
+
 
 .third-section__evaluation-star {
 	margin-left: 0px;
@@ -1041,13 +1048,22 @@ display: none;
 
 .third-section__title {
 	text-align:center;
+	margin-left: 0px;
+	 margin: 0 auto;
+	 margin-bottom: 35px;
 }
 
 .third-section__text {
-	font-size: 17px;
+	font-size: 19px;
 	line-height: 26px;
 	text-align:center;
+	margin-left: 0px;
 }
+
+.third-section__save-star {
+	margin-right: 0px;
+}
+
 }
 
 @media screen and (min-width:376px) and (max-width: 742px) {
@@ -1059,8 +1075,15 @@ display: none;
 
 
 @media screen and (min-width:376px) and (max-width:570px) {
+	
+
+	.wrapper {
+		margin-top: 235px;
+	}
+
+
 	.first-section {
-		background-position: 26px 108px, center 219px;
+		background-position: 24px 137px, center 219px;
 	}
 
 	.first-section__speed {
@@ -1077,8 +1100,16 @@ display: none;
 	}
 
 	.second-section__aside {
-	  min-width: auto;
+       padding-left:0px;
+   
 	}
+
+
+	.second-section__info {
+	display:none;
+	}
+
+	
 
 .second-section__title {
 	margin-right:0px;
@@ -1088,14 +1119,34 @@ display: none;
 		font-size:15px;
 		line-height: 19px;
 	}
+
+.second-section__more-order {
+	display:none;
+}
+
+
+	.third-section__aside {
+		margin-top:350px;
+	}
+
 	.third-section__more-order {
 		flex-direction:column;
 		align-items: center;
 	}
 
-	.third-section__order-button {
-		margin-right:0px;
-	}
+
+.third-section__text {
+	font-size: 16px;
+}
+
+
+.third-section__save-star {
+	display:none;
+}
+
+.third-section__more-order {
+	display:none;
+}
 
 
 	}
@@ -1343,32 +1394,41 @@ margin-left: 15px;
 }
 
 @media screen and (max-width: 350px) {
+
+.menu__btn {
+right:27px;
+
+}
+
 	.first-section {
-    background-position: 0px 50px,0px 120px;
-    background-size: contain;
+		background-position: -1px 50px,-3px 120px;
+		background-size: 310px;
 }
 
 
 .first-section__speed-miles {
 	min-width: 300px;
-	flex-direction: column;
-	align-items: center;
+	margin-bottom: 20px;
+
 }
 
 
 .first-section__test-order {
-	background-position: center 30px;
+	background-position: left center;
 }
 
-
 .first-section__order-button{
-	margin-left: 0px;
-	margin-top: 80px;
-	
+margin-top:0px;
+padding: 10px 33px;
+margin-left: 132px;
 }
 
 .second-section__aside {
 	padding-right: 0px;
+}
+
+.second-section__wrapp-title-text {
+	padding-left: 0px;
 }
 
 .second-section__second-title {
